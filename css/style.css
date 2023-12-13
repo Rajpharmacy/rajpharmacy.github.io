@@ -759,13 +759,70 @@ p {
 }
 
 h4, h6 {
+    font-size: 13px;
+    font-weight: 800;
     color: #007bff; /* Blue color for the headings */
 }
 
 .imageee{
     margin-left: 28%;
 }
+.discount {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.cs {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #4c96af;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.pro {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
 
+.pro:hover {
+    transform: scale(1.05);
+}
+
+.desc {
+    padding: 20px;
+    text-align: center;
+}
+
+.desc h5 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.item-price {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.original-price {
+    color: #ff0000; /* Different color for original price */
+}
+
+.discounted-price {
+    color: #000000; /* Different color for discounted price */
+}
 
 /* Shop Page */
 
@@ -797,13 +854,12 @@ h4, h6 {
         align-items: flex-start;
         position:fixed;
         top:0;
-        right:-300px;
+        right:-400px;
         height:100vh;
         width: 300px;
         background-color: #E3E6F3;
-        box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+        box-shadow: 0 40px 60px rgba(194, 7, 7, 0.1);
         padding:80px 0 0 10px;
-        
     }
 
     .container-fluid {
@@ -905,6 +961,11 @@ h4, h6 {
 
     .newsletter__form {
         width: 70%;
+    }
+
+    p {
+        color: #495057; /* Text color */
+        font-size: 14px;
     }
 }
 
