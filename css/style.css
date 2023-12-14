@@ -824,6 +824,51 @@ h4, h6 {
     color: #000000; /* Different color for discounted price */
 }
 
+.slides {
+    font-size: 0; /* Set font size to 0 to remove white space between inline-block elements */
+  }
+  
+.slide {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Style for Popover Box */
+.popover {
+    max-width: 250px; /* Set the maximum width of the popover box */
+    background-color: #fff; /* Background color */
+    border: 1px solid #ccc; /* Border color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+    color: #ff0000; /* Text color */
+    padding: 10px; /* Padding inside the popover box */
+}
+
+.popover-title {
+    font-weight: bold; /* Bold title text */
+}
+
+.popover-content {
+    margin-top: 10px; /* Add some space between title and content */
+}
+
+/* Style for the close button in the popover */
+.popover .close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+/* Style for the arrow of the popover */
+.popover.top .arrow {
+    border-top-color: #ccc; /* Arrow color */
+}
+
+/* Style for the arrow border */
+.popover.top .arrow:after {
+    border-top-color: #fff; /* Arrow border color */
+}
+
 /* Shop Page */
 
 
