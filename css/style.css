@@ -732,10 +732,10 @@ body{
 
 .card {
     transition: transform 0.3s;
-    background-color: #f8f9fa; /* Light background color */
+    background-color: #f8e184b3; /* Light background color */
     border-radius: 15px;
     overflow: hidden;
-    max-width: 400px; /* Adjust the maximum width as needed */
+    max-width: 900px; /* Adjust the maximum width as needed */
     margin: auto; /* Center the card */
 }
 
@@ -754,18 +754,15 @@ body{
 }
 
 p {
-    color: #495057; /* Text color */
+    color: #000000; /* Text color */
     font-size: 18px;
 }
 
-h4, h6 {
-    font-size: 13px;
-    font-weight: 800;
-    color: #007bff; /* Blue color for the headings */
-}
+
 
 .imageee{
-    margin-left: 28%;
+    margin-left: 41%;
+
 }
 .discount {
     position: absolute;
@@ -837,11 +834,13 @@ h4, h6 {
   /* Style for Popover Box */
 .popover {
     max-width: 250px; /* Set the maximum width of the popover box */
-    background-color: #fff; /* Background color */
+    background-color: #ff0000; /* Background color */
     border: 1px solid #ccc; /* Border color */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
-    color: #ff0000; /* Text color */
+    color: #ffffff; /* Text color */
     padding: 10px; /* Padding inside the popover box */
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 .popover-title {
@@ -869,6 +868,8 @@ h4, h6 {
     border-top-color: #fff; /* Arrow border color */
 }
 
+
+
 /* Shop Page */
 
 
@@ -888,6 +889,11 @@ h4, h6 {
 /* Start Media Query*/
 
 @media (max-width: 799px){
+
+    .imageee{
+        margin-left: 25%;
+        
+    }
     .section-p1{
         padding:40px 40px;
     }
