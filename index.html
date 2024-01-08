@@ -63,6 +63,7 @@
       <div class="slide"><img src="img/new1.png" alt="Slide 1"></div>
       <div class="slide"><img src="img/new2.png" alt="Slide 2"></div>
       <div class="slide"><img src="img/new3.png" alt="Slide 3"></div>
+      <div class="slide"><img src="img/new4.jpg" alt="Slide 4"></div>
     </div>
   </div>
 
@@ -72,6 +73,11 @@
       </div>
   </div>
 
+  <div class="slider-container">
+    <div class="slides">
+      <div class="slide"><img src="img/fssai.jpg" alt="Slide 1"></div>
+    </div>
+</div>
 
   <section class="container" style="display: flex;
   justify-content: space-around;
@@ -714,7 +720,7 @@
       function nextSlide() {
         const totalSlides = document.querySelectorAll('.slide').length;
         currentSlide = (currentSlide + 1) % totalSlides;
-        if (currentSlide > 2) { // Assuming there are only 3 slides (0, 1, 2)
+        if (currentSlide > 3) { // Assuming there are only 4 slides (0, 1, 2, 3)
           currentSlide = 0;
         }
         showSlide();
